@@ -1,0 +1,49 @@
+# Support Generation for 3D Printing
+
+A Python application for automatically generating support structures for 3D models in STL format. The application provides a graphical interface for loading and visualizing models, adjusting parameters, and generating support structures.
+
+## Features
+
+- Import and visualize STL models
+- Automatic support generation using an adaptive grid
+- Support density based on local surface inclination
+- Configurable generation parameters via JSON
+
+## Project Structure
+
+```text
+├── app.py
+├── core/
+│   ├── support_generation.py
+│   └── utils.py
+└── parameters.json
+```
+
+- **`app.py`** – GUI built with PySide6 and PyVista for STL visualization and parameter configuration.
+- **`core/support_generation.py`** – Main support generation algorithm.
+- **`core/utils.py`** – Utility functions for geometry processing and data preparation.
+- **`parameters.json`** – Configuration of support generation parameters.
+
+## Support Generation
+
+The algorithm uses an **adaptive grid-based approach** to place support points on downward-facing surfaces of a 3D model.
+
+Support point density is adjusted based on local surface inclination, allowing more supports in critical regions while reducing unnecessary supports elsewhere.
+
+## Installation
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+Start the application:
+
+```bash
+python app.py
+```
+
+Load an STL file, configure the support parameters, and generate the support structures through the graphical interface.
