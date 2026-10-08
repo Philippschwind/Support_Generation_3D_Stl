@@ -1,0 +1,8 @@
+PySide6
+pyvista
+pyvistaqt
+numpy
+trimesh
+open3d
+pydantic
+scipy

@@ -1,0 +1,90 @@
+{
+  "name": {
+    "type": "string",
+    "default": ""
+  },
+  "generateSupport": {
+    "type": "bool",
+    "default": false
+  },
+  "supportType": {
+    "type": "float",
+    "default": 1
+  },
+  "supportOnPart": {
+    "type": "bool",
+    "default": false
+  },
+  "reduceResolution": {
+    "type": "bool",
+    "default": false
+  },
+  "meanEdgeLength": {
+    "type": "float",
+    "default": 1
+  },
+  "angleThresholdDownSkin": {
+    "type": "float",
+    "default": 1
+  },
+  "angleThresholdBottomSkin": {
+    "type": "float",
+    "default": 1
+  },
+  "angleStepsSupport": {
+    "type": "float",
+    "default": 1
+  },
+  "targetZHeight": {
+    "type": "float",
+    "default": 1
+  },
+  "DistanceBarSupport": {
+    "type": "float",
+    "default": 1
+  },
+  "SupportDiameterBase": {
+    "type": "float",
+    "default": 1
+  },
+  "SupportDiameterMiddle": {
+    "type": "float",
+    "default": 1
+  },
+  "SupportDiameterPart": {
+    "type": "float",
+    "default": 1
+  },
+  "SupportHeightBase": {
+    "type": "float",
+    "default": 1
+  },
+  "SupportHeightTip": {
+    "type": "float",
+    "default": 1
+  },
+  "SupportPenetrationDepth": {
+    "type": "float",
+    "default": 1
+  },
+  "minGridSpacing": {
+    "type": "float",
+    "default": 1
+  },
+  "maxGridSpacing": {
+    "type": "float",
+    "default": 1
+  },
+  "overhangAngle": {
+    "type": "float",
+    "default": 1
+  },
+  "minSupportDistance": {
+    "type": "float",
+    "default": 1
+  },
+  "supportCutoffHeight": {
+    "type": "float",
+    "default": 1
+  }
+}
